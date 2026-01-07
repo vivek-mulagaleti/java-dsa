@@ -20,3 +20,32 @@
             -->Solved question is:"Two sum","palindrome"
 
 ###### with this day 1 dsa learning was done #####
+
+
+## Day2
+    -->In the day 2 learned about java architecture & installation
+
+    -->firstly java codes executes like
+            --> java file ---compiler take entire file--> converts into bytecode(.class file)--- interpreter ---> machine code
+
+    --> we need jvm to run the .class file(bytecode) this converts into the machine code
+
+     --> this is the reason why java is called platform independent.
+
+
+-->JDK VS JRE VS JVM VS JIT
+    THIS IS IN THE IMAGE.PNG
+
+#### JDK 
+    --> It provides an environment that is requried to run the java program
+    ---> it consist of JRE+Development tools,a compiler,archiver,docs generator,interpreter/loader
+#### JRE
+    --> It provides an environment to only run the programs
+        --> it consist Liberies and JVM
+--after we get .class file class loader loads all the classes needed to execute the program.
+--> JVM sends code to byte code verifier to the format of the code.
+#### JVM
+    --> line by line execution 
+
+--> solved one easy question in leet code 
+        Solved Question: "paranthsies validation"
